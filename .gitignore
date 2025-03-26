@@ -1,0 +1,56 @@
+# LaTeX build files
+*.aux
+*.acn
+*.acr
+*.alg
+*.bcf
+*.bbl
+*.bbl-SAVE-ERROR
+*.blg
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.ist
+*.log
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.nlg
+*.nlo
+*.out
+*.slg
+*.slo
+*.stg
+*.stt
+*.synctex.gz
+*.toc
+*.xdy
+*.tdo
+*.xdv
+
+# Generated files
+*.dvi
+*.ps
+*.pdf
+
+# Editor and IDE files
+*.swp
+*~
+.#*
+*.bak
+*.backup
+*.sav
+*.tmproj
+*.tmproj.*
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.idea/
+*.bak
+
+# MacOS File
+*.DS_Store
