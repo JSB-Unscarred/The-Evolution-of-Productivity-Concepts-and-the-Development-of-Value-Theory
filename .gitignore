@@ -27,6 +27,7 @@
 *.stg
 *.stt
 *.synctex.gz
+.synctex(busy)
 *.toc
 *.xdy
 *.tdo
@@ -54,3 +55,4 @@
 
 # MacOS File
 *.DS_Store
+
