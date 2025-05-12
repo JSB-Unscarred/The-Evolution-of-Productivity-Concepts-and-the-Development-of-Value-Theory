@@ -4,6 +4,100 @@
 
 \section{引言}
 
+斯拉法在1960年的《用商品生产商品》一书中提出了一种独具特色的价值理论。斯拉法一方面批判了新古典价值论的边际分析范式，另一方面又不同于马克思的劳动价值论，强调价值决定和剩余分配是同时进行的。接下来，笔者将试着梳理斯拉法的理论框架。
+
 \section{斯拉法的价值理论}
 
+\subsection{为维持生存的生产}
+
+斯拉法首先分析了为维持生存的生产体系，即产出品仅能补偿投入品，生产规模无法扩大的简单再生产体系\cite[4]{SiLaFaYongShangPinShengChanShangPinJingJiLiLunPiPanXuLun1963}。他首先举了一个包含小麦、铁和猪这三种商品的三部门生产体系的例子\cite[5]{SiLaFaYongShangPinShengChanShangPinJingJiLiLunPiPanXuLun1963}：
+\begin{equation*}
+    \begin{aligned}
+    240\text{夸特小麦}&+&12\text{吨铁} &+&18\text{头猪} &\rightarrow  450\text{夸特小麦} \\
+    90\text{夸特小麦}&+&6\text{吨铁} &+&12\text{头猪} &\rightarrow  21\text{吨铁} \\
+    120\text{夸特小麦}&+&3\text{吨铁} &+&30\text{头猪} &\rightarrow  60\text{头猪} \\
+    \text{总计：}450\text{夸特小麦}&&21\text{吨铁}&&60\text{头猪}& \\
+    \end{aligned}
+\end{equation*}
+
+可见，这里三个商品的产出和生产这些商品所需要的投入是相等的，这个体系刚好可以维持生存。斯拉法指出：“这里有唯一的一套交换价值，如果市场采用这些交换价值，会使产品的原来分配复原，使生产过程能够反复进行。”\cite[5]{SiLaFaYongShangPinShengChanShangPinJingJiLiLunPiPanXuLun1963}。把上面的生产体系视为一组方程，我们可以求得这套交换价值必须是\cite[5]{SiLaFaYongShangPinShengChanShangPinJingJiLiLunPiPanXuLun1963}：
+\begin{equation*}
+    10\text{夸特小麦}=1\text{吨铁}=2\text{只猪}
+\end{equation*}
+
+接着，斯拉法把上述思路扩展到了一般的情形\cite[5-6]{SiLaFaYongShangPinShengChanShangPinJingJiLiLunPiPanXuLun1963}\cite[189-190]{CaiJiMingCongGuDianZhengZhiJingJiXueDaoZhongGuoTeSeSheHuiZhuYiZhengZhiJingJiXueJiYuZhongGuoShiJiaoDeZhengZhiJingJiXueYanBianShangCe2023}。具体来说，假设一个生产体系中有$n$个行业，每个行业对应一个商品。每个商品都需要由这一体系中的其它商品按照一个固定技术系数线性地被生产出来。也即存在一个技术矩阵$\bm{A}$：
+\begin{equation}
+    \bm{A} =
+    \begin{pmatrix}
+    a_{11} & \cdots & a_{1n} \\
+    \vdots & \ddots & \vdots \\
+    a_{n1} & \cdots & a_{nn} \\
+    \end{pmatrix}
+\end{equation}
+
+其中，$a_{ij}$代表第$j$行业使用第$i$行业商品的技术系数，即每单位商品$j$需要$a_{ij}$单位的商品$i$，在仅能维持生存的生产体系中，$a_{ij}$必须满足：
+\begin{equation}
+    \sum_{i=1}^{n} a_{ij} = 1,\qquad \sum_{j=1}^{n}a_{ij} = 1
+\end{equation}
+
+令该生产体系中的价值向量为$\bm{p} = \left( p_1, p_2, \cdots, p_n \right)^\top$，则$\bm{p}$和$\bm{A}$满足：
+\begin{equation}
+    \label{weichishengcun}
+    \bm{A} \bm{p} = \bm{p}
+\end{equation}
+
+如果再令某一产品为计价物，即价格为$1$，那么就会有$n-1$个未知数，就可以解出价值向量$\bm{p}$来。
+
+\subsection{具有剩余的生产}
+
+如果这一生产体系中出现剩余，也就是\cite[190]{CaiJiMingCongGuDianZhengZhiJingJiXueDaoZhongGuoTeSeSheHuiZhuYiZhengZhiJingJiXueJiYuZhongGuoShiJiaoDeZhengZhiJingJiXueYanBianShangCe2023}：
+\begin{equation}
+    \sum_{i=1}^{n} a_{ij} < 1,\qquad \sum_{j=1}^{n}a_{ij} < 1
+\end{equation}
+
+那么我们便只有$n-1$个未知数而有$n$个独立方程，这一体系就会出现矛盾。斯拉法的解决方法是引入一个对所有生产部门统一的利润率$r$来分配剩余\cite[7]{SiLaFaYongShangPinShengChanShangPinJingJiLiLunPiPanXuLun1963}。具体而言，式\ref{weichishengcun}变为：
+\begin{equation}
+    \bm{A} \bm{p} \left( 1 + r \right)= \bm{p}
+\end{equation}
+
+可以看到，在斯拉法价值论中，商品的价值和利润率就是同时决定的，这就避免了新古典价值论中循环论证的逻辑矛盾。
+
+斯拉法还指出：“一直到这里，我们都把工资当作是由工人的必需生存用品所组成，因此在体系中它的地位是和引擎燃料或牲畜饲料一样。”\cite[11]{SiLaFaYongShangPinShengChanShangPinJingJiLiLunPiPanXuLun1963}也就是说，当我们在确定技术矩阵$\bm{A}$中的技术系数时，我们实际上已经把工人工资中的“生存工资”部分包括进去了。但是当经济中出现剩余时，工资将不再仅是一个维持简单再生产的水平，“工资可以包括一部分剩余产品”\cite[11]{SiLaFaYongShangPinShengChanShangPinJingJiLiLunPiPanXuLun1963}，所以我们可以在体系中进一步加入劳动和工资。具体来说，令$\bm{l} = \left( l_1, l_2, \cdots, l_n \right)^\top$代表生产体系中的劳动投入向量，其中$l_i$代表投入到第$i$行业的劳动量；令$w$代表对所有生产部门统一的工资率，那么式\ref{weichishengcun}就变为：
+\begin{equation}
+    \bm{A} \bm{p} \left( 1 + r \right) + \bm{l} w = \bm{p}
+\end{equation}
+
+至此，我们不仅可以得到生产体系中各商品的价值，还可以得到生产体系中的分配关系。
+
+\subsection{生产体系的劳动还原}
+
+斯拉法通过将其生产体系的循环生产还原为劳动，反映了劳动在斯拉法价值论中的独特地位。这里的“还原”指的是“用一系列劳动量来代替所使用的各种生产资料，每一劳动量都有适合于它的‘时期’。”\cite[37]{SiLaFaYongShangPinShengChanShangPinJingJiLiLunPiPanXuLun1963}
+
+对式\ref{weichishengcun}进行变换，得到：
+\begin{equation}
+    \bm{l}\left[ \bm{I}_n - \bm{A} \left( 1+r \right) \right]^{-1} = \bm{p}
+\end{equation}
+
+再根据\footnote{$\left[ \bm{I}_n - \bm{A} \left( 1+r \right) \right]^{-1}$是一个性质足够好的矩阵\cite[89]{pasinettiLecturesTheoryProduction1977}}$\left[ \bm{I}_n - \bm{A} \left( 1+r \right) \right]^{-1} = \bm{I}_n + \left( 1+r \right) \bm{l} \bm{A} w + \left( 1+r \right)^2 \bm{l} \bm{A}^2 w + \cdots $，可以得到：
+\begin{equation}
+    \bm{p} = \bm{l}w + \left( 1+r \right)\bm{l}\bm{A}w + \left( 1+r \right)^2 \bm{l}\bm{A}^2w + \cdots
+\end{equation}
+
+因此，每种商品的价值都可以被视为工资和利润从无穷远的过去进行积累的结果\cite[37-38]{SiLaFaYongShangPinShengChanShangPinJingJiLiLunPiPanXuLun1963}\cite[193]{CaiJiMingCongGuDianZhengZhiJingJiXueDaoZhongGuoTeSeSheHuiZhuYiZhengZhiJingJiXueJiYuZhongGuoShiJiaoDeZhengZhiJingJiXueYanBianShangCe2023}。
+
+如果$r=0$，那么有：
+\begin{equation}
+    \bm{p} = \bm{l}w + \bm{l}\bm{A}w + \bm{l}\bm{A}^2w + \cdots
+\end{equation}
+
+这意味着整个生产体系的价值本质上都是无穷期工资的叠加，所以可以被完全还原为不同时期的劳动量的叠加。
+
+\subsection{其他部分}
+
+为了研究经济剩余的分配，斯拉法又进一步区分了基本和非基本商品，提出了标准商品和标准体系的概念，还研究了一个部门可以生产多个产品的联合生产体系。但是，笔者认为这些部分只是前述价值理论的推广，因此在此按下不表。
+
 \section{生产力与价值的关系}
+
+很遗憾，斯拉法的价值理论虽然很有新意，但斯拉法通篇没有提到生产力的概念。斯拉法注重研究分配（工资和利润率）的变化对价值的影响，而没有考虑生产力变化对价值的影响。倘若我们硬要对此进行分析，恐怕只能对矩阵$\bm{A}$的某一行的系数施加幅扰动，然后用数值的方法模拟该行对应的商品的价值的变化。但是这样的探究不仅很难得出一般的结论，也没有太大的意义。
+
+然而，我们从斯拉法的价值决定方法中不难推断，一个商品的价值不仅取决于本部门在该商品上的（绝对）生产力，也取决于其它部门在其它商品商的（绝对）生产力。而广义价值论中的比较生产力有着极其相似的定义。因此，斯拉法价值论中的这种价值决定方法实际上暗示了比较生产力的作用。
