@@ -27,7 +27,7 @@
 *.stg
 *.stt
 *.synctex.gz
-.synctex(busy)
+*.synctex(busy)
 *.toc
 *.xdy
 *.tdo
