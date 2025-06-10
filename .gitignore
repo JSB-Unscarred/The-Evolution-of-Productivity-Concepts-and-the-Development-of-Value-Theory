@@ -41,7 +41,6 @@
 
 # Editor and IDE files
 *.swp
-*~
 .#*
 *.bak
 *.backup
@@ -53,6 +52,7 @@
 .vscode/
 .idea/
 *.bak
+*.ptc
 
 # MacOS File
 *.DS_Store
